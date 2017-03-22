@@ -27,70 +27,70 @@ public class happybday extends javax.swing.JFrame {
     private void initComponents() {
 
         Background = new javax.swing.JPanel();
-        HeaderLabel = new javax.swing.JLabel();
-        Prompt1Label = new javax.swing.JLabel();
-        NameEntryField = new javax.swing.JTextField();
-        Prompt2Label = new javax.swing.JLabel();
-        BirthdayEntryField = new javax.swing.JTextField();
-        EnterButton = new javax.swing.JButton();
-        CakeLabel = new javax.swing.JLabel();
+        headerLabel = new javax.swing.JLabel();
+        prompt1Label = new javax.swing.JLabel();
+        nameEntryField = new javax.swing.JTextField();
+        prompt2Label = new javax.swing.JLabel();
+        birthdayEntryField = new javax.swing.JTextField();
+        enterButton = new javax.swing.JButton();
+        cakeLabel = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        MultiLineTextDisplay = new javax.swing.JTextArea();
-        MemeLabel = new javax.swing.JLabel();
-        ResetButton = new javax.swing.JButton();
-        MenuBar = new javax.swing.JMenuBar();
-        FileMenu = new javax.swing.JMenu();
+        multiLineTextDisplay = new javax.swing.JTextArea();
+        memeLabel = new javax.swing.JLabel();
+        resetButton = new javax.swing.JButton();
+        menuBar = new javax.swing.JMenuBar();
+        fileMenu = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-        EditMenu = new javax.swing.JMenu();
+        editMenu = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 153, 255));
 
         Background.setBackground(new java.awt.Color(255, 0, 0));
 
-        HeaderLabel.setBackground(new java.awt.Color(204, 204, 0));
-        HeaderLabel.setFont(new java.awt.Font("WebLetterer Pro BB", 0, 36)); // NOI18N
-        HeaderLabel.setForeground(new java.awt.Color(0, 255, 0));
-        HeaderLabel.setText("Happy Birthday!");
+        headerLabel.setBackground(new java.awt.Color(204, 204, 0));
+        headerLabel.setFont(new java.awt.Font("WebLetterer Pro BB", 0, 36)); // NOI18N
+        headerLabel.setForeground(new java.awt.Color(0, 255, 0));
+        headerLabel.setText("Happy Birthday!");
 
-        Prompt1Label.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        Prompt1Label.setForeground(new java.awt.Color(255, 255, 255));
-        Prompt1Label.setText("Please enter your name.");
+        prompt1Label.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        prompt1Label.setForeground(new java.awt.Color(255, 255, 255));
+        prompt1Label.setText("Please enter your name.");
 
-        NameEntryField.setBackground(new java.awt.Color(0, 240, 0));
-        NameEntryField.addActionListener(new java.awt.event.ActionListener() {
+        nameEntryField.setBackground(new java.awt.Color(0, 240, 0));
+        nameEntryField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                NameEntryFieldActionPerformed(evt);
+                nameEntryFieldActionPerformed(evt);
             }
         });
 
-        Prompt2Label.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        Prompt2Label.setForeground(new java.awt.Color(255, 255, 255));
-        Prompt2Label.setText("Please enter your birthday!");
+        prompt2Label.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        prompt2Label.setForeground(new java.awt.Color(255, 255, 255));
+        prompt2Label.setText("Please enter your birthday!");
 
-        BirthdayEntryField.setBackground(new java.awt.Color(0, 240, 0));
+        birthdayEntryField.setBackground(new java.awt.Color(0, 240, 0));
 
-        EnterButton.setText("Enter");
-        EnterButton.addActionListener(new java.awt.event.ActionListener() {
+        enterButton.setText("Enter");
+        enterButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                EnterButtonActionPerformed(evt);
+                enterButtonActionPerformed(evt);
             }
         });
 
-        CakeLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cake-icon.png"))); // NOI18N
+        cakeLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cake-icon.png"))); // NOI18N
 
-        MultiLineTextDisplay.setBackground(new java.awt.Color(0, 204, 0));
-        MultiLineTextDisplay.setColumns(20);
-        MultiLineTextDisplay.setRows(5);
-        jScrollPane1.setViewportView(MultiLineTextDisplay);
+        multiLineTextDisplay.setBackground(new java.awt.Color(0, 204, 0));
+        multiLineTextDisplay.setColumns(20);
+        multiLineTextDisplay.setRows(5);
+        jScrollPane1.setViewportView(multiLineTextDisplay);
 
-        MemeLabel.setIcon(new javax.swing.ImageIcon("Y:\\Documents\\tumblr_o143zqm0qa1tj8xueo1_500.gif")); // NOI18N
-        MemeLabel.setText("jLabel4");
+        memeLabel.setIcon(new javax.swing.ImageIcon("Y:\\Documents\\tumblr_o143zqm0qa1tj8xueo1_500.gif")); // NOI18N
+        memeLabel.setText("jLabel4");
 
-        ResetButton.setText("Reset");
-        ResetButton.addActionListener(new java.awt.event.ActionListener() {
+        resetButton.setText("Reset");
+        resetButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ResetButtonActionPerformed(evt);
+                resetButtonActionPerformed(evt);
             }
         });
 
@@ -101,57 +101,57 @@ public class happybday extends javax.swing.JFrame {
             .addGroup(BackgroundLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(BackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(HeaderLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(headerLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(BackgroundLayout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(BackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(BackgroundLayout.createSequentialGroup()
                                 .addGroup(BackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Prompt2Label, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(BirthdayEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(NameEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(Prompt1Label, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(EnterButton))
+                                    .addComponent(prompt2Label, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(birthdayEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nameEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(prompt1Label, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(enterButton))
                                 .addGap(18, 18, 18)
-                                .addComponent(CakeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(cakeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(BackgroundLayout.createSequentialGroup()
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(ResetButton))))))
+                                .addComponent(resetButton))))))
             .addGroup(BackgroundLayout.createSequentialGroup()
                 .addGap(77, 77, 77)
-                .addComponent(MemeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 525, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(memeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 525, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         BackgroundLayout.setVerticalGroup(
             BackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(BackgroundLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(HeaderLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(headerLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14)
                 .addGroup(BackgroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(BackgroundLayout.createSequentialGroup()
-                        .addComponent(Prompt1Label)
+                        .addComponent(prompt1Label)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(NameEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(nameEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Prompt2Label)
+                        .addComponent(prompt2Label)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(BirthdayEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(birthdayEntryField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(EnterButton)
+                        .addComponent(enterButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(BackgroundLayout.createSequentialGroup()
                         .addGap(3, 3, 3)
-                        .addComponent(CakeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cakeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ResetButton)))
+                        .addComponent(resetButton)))
                 .addGap(18, 18, 18)
-                .addComponent(MemeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(memeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        FileMenu.setText("File");
+        fileMenu.setText("File");
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ESCAPE, 0));
         jMenuItem1.setText("Exit");
@@ -160,14 +160,14 @@ public class happybday extends javax.swing.JFrame {
                 jMenuItem1ActionPerformed(evt);
             }
         });
-        FileMenu.add(jMenuItem1);
+        fileMenu.add(jMenuItem1);
 
-        MenuBar.add(FileMenu);
+        menuBar.add(fileMenu);
 
-        EditMenu.setText("Edit");
-        MenuBar.add(EditMenu);
+        editMenu.setText("Edit");
+        menuBar.add(editMenu);
 
-        setJMenuBar(MenuBar);
+        setJMenuBar(menuBar);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -185,29 +185,29 @@ public class happybday extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void NameEntryFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NameEntryFieldActionPerformed
+    private void nameEntryFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameEntryFieldActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_NameEntryFieldActionPerformed
+    }//GEN-LAST:event_nameEntryFieldActionPerformed
 
-    private void EnterButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EnterButtonActionPerformed
+    private void enterButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enterButtonActionPerformed
         //takes the user's imput and displays it to a text field
         String name, birthday;
         name = "";
         birthday = "";
-        name = NameEntryField.getText();
-        birthday = BirthdayEntryField.getText();
-        MultiLineTextDisplay.setText("Hey! " +name + ". Are you excited for "+ birthday + "? \nBecause that's your birthday!" );
-    }//GEN-LAST:event_EnterButtonActionPerformed
+        name = nameEntryField.getText();
+        birthday = birthdayEntryField.getText();
+        multiLineTextDisplay.setText("Hey! " +name + ". Are you excited for "+ birthday + "? \nBecause that's your birthday!" );
+    }//GEN-LAST:event_enterButtonActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         //allows the user to close the program by pressing escape
         System.exit(0);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    private void ResetButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetButtonActionPerformed
+    private void resetButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetButtonActionPerformed
         //button that resets the textfield
-        MultiLineTextDisplay.setText("");
-    }//GEN-LAST:event_ResetButtonActionPerformed
+        multiLineTextDisplay.setText("");
+    }//GEN-LAST:event_resetButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -246,20 +246,20 @@ public class happybday extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Background;
-    private javax.swing.JTextField BirthdayEntryField;
-    private javax.swing.JLabel CakeLabel;
-    private javax.swing.JMenu EditMenu;
-    private javax.swing.JButton EnterButton;
-    private javax.swing.JMenu FileMenu;
-    private javax.swing.JLabel HeaderLabel;
-    private javax.swing.JLabel MemeLabel;
-    private javax.swing.JMenuBar MenuBar;
-    private javax.swing.JTextArea MultiLineTextDisplay;
-    private javax.swing.JTextField NameEntryField;
-    private javax.swing.JLabel Prompt1Label;
-    private javax.swing.JLabel Prompt2Label;
-    private javax.swing.JButton ResetButton;
+    private javax.swing.JTextField birthdayEntryField;
+    private javax.swing.JLabel cakeLabel;
+    private javax.swing.JMenu editMenu;
+    private javax.swing.JButton enterButton;
+    private javax.swing.JMenu fileMenu;
+    private javax.swing.JLabel headerLabel;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel memeLabel;
+    private javax.swing.JMenuBar menuBar;
+    private javax.swing.JTextArea multiLineTextDisplay;
+    private javax.swing.JTextField nameEntryField;
+    private javax.swing.JLabel prompt1Label;
+    private javax.swing.JLabel prompt2Label;
+    private javax.swing.JButton resetButton;
     // End of variables declaration//GEN-END:variables
 }
